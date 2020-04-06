@@ -1,0 +1,11 @@
+id: repo-policy
+name: repo-policy
+description: This is my custom policy with repository
+category: Custom
+type: custom
+resourceLevelSupported: true
+encryptionSupported: false
+standalone: true
+requiredCharacteristics: []
+providedCharacteristics: []
+configuration: []
