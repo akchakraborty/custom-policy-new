@@ -18,6 +18,10 @@
                 <http-transform:headers>#[ {'New-Header': 'Hello World!'} ]</http-transform:headers>
             </http-transform:set-response>
 
+			<http-transform:set-response statusCode="200">
+                <http-transform:body>#[ 'Hello World!' ]</http-transform:body>
+                <http-transform:headers>#[ {'New-Header': 'Hello World!'} ]</http-transform:headers>
+            </http-transform:set-response>
         </http-policy:source>
     </http-policy:proxy>
 </mule>
